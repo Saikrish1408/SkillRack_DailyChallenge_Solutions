@@ -8,7 +8,6 @@ public class DailyChallenge14052024 {
         for(int i = 0 ; i < n ; i++)
             arr[i] = scannerObject.nextInt();
         System.out.println(alternativeOddOrEven(n, arr, arr[0]%2 == 0, arr[0]%2 != 0));
-        recursiveApproach(arr, n, arr[0]%2 == 0, arr[0]%2 != 0);
         scannerObject.close();
     }
 
